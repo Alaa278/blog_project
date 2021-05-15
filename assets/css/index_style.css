@@ -1,0 +1,260 @@
+
+body {
+  background: #021826;
+  font-size: 14px;
+  line-height: 1.86em;
+  -webkit-font-smoothing: antialiased;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-weight: 400;
+  color:#5d98af;
+  box-shadow: none;
+  letter-spacing: 0.20em;
+  
+}
+
+/*-------------------------------------------------------*/
+input,textarea
+{
+border-radius: 15px !important;
+}
+input,textarea:focus
+{
+border: 2px solid #5d98af !important; 
+box-shadow: none !important;
+}
+.upload label
+{
+border-top-left-radius: 15px !important;
+border-bottom-left-radius: 15px !important ;
+letter-spacing: normal;
+
+}
+
+#heading{
+font-size: 20px;
+font-weight: bold;
+margin-bottom: 15px;
+}
+/*-------------------------------------------------------*/
+section .hBorder
+{
+height: 2px;
+width: 66px;
+background-color: #5d98af;
+transition: width 0.5s;
+}
+section .borderHover:hover .hBorder
+{
+width: 115px;
+}
+/*--------------------------------------------------*/
+.navbar-toggler{
+width: 47px;
+height: 34px;
+background-color: transparent;
+border:none;
+}
+.navbar-toggler .line{
+width: 100%;
+float: left;
+height: 2px;
+background-color: #FFF;
+margin-bottom: 5px;
+}
+/*--------------------------------------------------*/
+
+
+#reg .register
+{
+  margin-top: 90px;
+  margin-bottom: 80px;
+  background-color:#0b1f2c ;
+  border-radius: 12px;
+}
+
+#reg .form-control
+{
+  box-shadow: none;
+  
+}
+
+#reg button
+{
+font-size: large !important;
+background-color:  #5d98af !important;
+color: #FFF !important;
+padding: 10px 40px;
+border-radius: 15px !important;
+
+}
+#reg button:hover
+{
+background-color:  #FFF !important;
+color: #5d98af !important; 
+}
+
+/*--------------------------------------------------*/
+h2
+{
+  text-transform: uppercase;
+  font-size: 27px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+/*------------------------------------------------*/
+/*---------------------for login page---------------------------*/
+.ask
+{
+color: #FFF;
+}
+.ask a
+{
+color: #5d98af;
+font-weight: 600;
+font-size: 16px;
+}
+/*------------------------------------------------*/
+/*-----------------------nav-------------------------*/
+nav
+{
+border-bottom: 2px solid #FFF !important;
+font-weight: 600;
+background-color: #021826;
+color: #5d98af;
+}
+nav a
+{
+color: #5d98af !important;
+}
+.search
+{
+background-color:  #FFF !important;
+color: #5d98af !important; 
+}
+.search:hover
+{
+background-color:  #5d98af !important;
+color: #FFF !important; 
+}
+.logout
+{
+background-color: #5d98af;
+color: #FFF;
+}
+.logout:hover
+{
+color: #FFF;
+}
+nav .log
+{
+  color: #5d98af;
+  border: transparent;
+  font-weight: 600;
+  background-color: transparent;
+  margin-top: -2px;
+  cursor: pointer;
+}
+/*----------------blog---------------------------*/
+#blog , #profile
+{
+margin-top: 80px;
+margin-bottom: 20px;
+}
+#blog h4 ,h5
+{
+font-weight: 700;
+color: #245C73;
+font-size: 18px;
+}
+#blog h5
+{
+font-size: 14px;
+}
+#blog .mainImg
+{
+height: 85%;
+width: 85% !important;
+
+}
+#blog button
+{
+font-size: large !important;
+background-color:  #5d98af !important;
+color: #FFF !important;
+padding: 10px 40px;
+border-radius: 15px !important;
+
+}
+/*------------------------------------------------*/
+/*--------------------profile---------------------*/
+#profile .profileImg
+{
+width: 15%;
+height: 15%;
+}
+#profile h5
+{
+font-size: medium;
+}
+#profile span
+{
+font-size: small;
+color: #5d98af;
+}
+#profile .content p
+{
+display: inline;
+font-size: medium;
+color: #245C73;
+font-weight: 700;
+font-size: 14px;
+margin-right: 10px;
+}
+#profile h4
+{
+font-weight: 700;
+font-size: 15px;
+color: #245C73;
+}
+#profile button
+{
+font-size: 15px; 
+color: #FFF !important;
+border-radius: 15px !important;
+}
+#profile .update
+{
+  font-size: 15px; 
+  color: #FFF !important;
+  border-radius: 15px !important;
+  background-color: #5d98af;
+}
+/*---------------------------------------------------------*/
+
+#to-top
+{
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  z-index: 10;
+  background-color: #245C73;
+  color: #FFF; 
+  text-decoration: none;
+  padding: 7px 15px;
+  border-radius: 50%;
+  font-size: 35px;
+}
+/*---------------------------------------------------------*/
+
+@media (max-width :991px)
+{ 
+body
+  {
+    font-size: 12px !important;
+    
+  }  
+ 
+  
+  
+}
+/*--------------------------------------------------*/
